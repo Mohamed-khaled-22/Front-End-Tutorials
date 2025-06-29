@@ -1,0 +1,50 @@
+.div {
+    position:relative;
+}
+.slider{
+    width:300px;
+    margin: 100px auto;
+    overflow:hidden;
+}
+.slider .slide-container{
+    transition:0.3s;
+    position:relative;
+    list-style:none;
+    width:1200px;
+    display:flex;
+    padding:0;
+    margin:0;
+    left:0;
+}
+.slider li{
+    width: 300px;
+    font-size: 20px;
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    line-height: 37px;
+    /* pointer-events: none; */
+    user-select:none;
+}
+.bolits{
+    width:140px;
+    position:absolute;
+    transform:translateX(-50%);
+    left:50%;
+    bottom:-100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.bolits span{
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:1px solid ;
+}
+.bolits span.active{
+    background-color:blue;
+}
+
+

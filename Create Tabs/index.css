@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 1px;
+    background-color: #f6f6f4;
+    /* border: 1px solid black;
+    border-bottom: none; */
+}
+
+li.active {
+    background-color: #ddd;
+}
+
+.container {
+    padding: 20px;
+    /* border: 1px solid black; */
+    background-color: #ddd;
+    /* border-top: none; */
+}
+
+.container div {
+    display: none;
+}
+
+.container .one {
+    display: block;
+}

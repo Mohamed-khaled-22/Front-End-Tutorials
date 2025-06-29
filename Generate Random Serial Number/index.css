@@ -1,0 +1,36 @@
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.result-window {
+    width: 200px;
+    background-color: cyan;
+    height: 50px;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color: #777;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}

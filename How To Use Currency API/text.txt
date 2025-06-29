@@ -1,0 +1,9 @@
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", function () { console.log(this.responseText); });
+oReq.open("GET", "https://api.freecurrencyapi.com/v1/latest?apikey=YOUR-APIKEY");
+oReq.send();
+
+
+
+
+my key :  fca_live_lAlR9SJF5iqPislh5clCRiDClyZ2oM9BKH8BOWyY

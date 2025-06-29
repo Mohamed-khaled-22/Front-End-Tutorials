@@ -1,0 +1,48 @@
+.container {
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    padding: 10px;
+}
+
+.form input:focus {
+    outline: none;
+    border-bottom: 2px solid aqua;
+}
+
+.form .count {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    color: blue;
+}
+
+.elasy {
+    color: red !important;
+    font-weight: bold;
+}
+
+.progress {
+    position: relative;
+    bottom: 2px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(57, 161, 57);
+    transition: 0.3s linear;
+}
+
+.elasy1 {
+    background-color: red !important;
+}
